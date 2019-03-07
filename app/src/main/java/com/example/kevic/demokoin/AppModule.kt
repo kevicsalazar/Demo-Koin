@@ -1,6 +1,7 @@
 package com.example.kevic.demokoin
 
 import com.example.kevic.demokoin.data.dataSourceModule
+import com.example.kevic.demokoin.data.networkModule
 import com.example.kevic.demokoin.data.repositoryModule
 import com.example.kevic.demokoin.domain.useCaseModule
 import com.example.kevic.demokoin.presentation.presenterModule
@@ -15,7 +16,8 @@ object AppModule {
             presenterModule,
             useCaseModule,
             repositoryModule,
-            dataSourceModule
+            dataSourceModule,
+            networkModule
         )
     }
 
